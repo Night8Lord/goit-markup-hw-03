@@ -155,15 +155,14 @@ img {
   color: #f4f4fd;
 }
 .footer-logo {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 /* .section-one */
 .section-one {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  padding-left: 472px;
-  padding-right: 472px;
 }
 .heding {
   font-size: 56px;
@@ -171,7 +170,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  min-width: 496px;
+  max-width: 496px;
   padding-bottom: 48px;
 }
 
@@ -189,6 +188,7 @@ img {
   border: none;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
 }
 .main-button:focus,
 .main-button:hover {
@@ -213,7 +213,7 @@ img {
 
 .htr-two {
   display: flex;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   justify-content: flex-start;
 }
 
@@ -224,12 +224,18 @@ img {
   padding-bottom: 120px;
 }
 
+.name-item {
+  padding: 32px 0;
+}
+
 .htw-tre {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .section-tre-ul-part {
   background-color: #fff;
   width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
 }
 
 .ul-section-tre {
@@ -262,7 +268,7 @@ img {
   padding-bottom: 120px;
 }
 .htw-for {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .ul-section-for {
   display: flex;
@@ -273,16 +279,14 @@ img {
 }
 
 .htr-for {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 8px;
-  padding-left: 16px;
+  margin-bottom: 8px;
 }
 .li-section-for {
-  width: calc((100% - 2 * 24px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
-.p-for {
-  padding-bottom: 32px;
-  padding-left: 16px;
+.item-li-for {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
