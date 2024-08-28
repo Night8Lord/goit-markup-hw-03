@@ -206,8 +206,6 @@ img {
 .ul-section-two {
   display: flex;
   gap: 24px;
-  padding-right: 156px;
-  padding-left: 156px;
 }
 
 .li-section-two {
@@ -247,7 +245,6 @@ img {
 }
 
 .img-section-tre {
-  padding-bottom: 32px;
 }
 
 .htr-tre {
@@ -257,7 +254,6 @@ img {
 .p-tre {
   display: flex;
   justify-content: center;
-  padding-bottom: 32px;
   text-align: center;
 }
 
