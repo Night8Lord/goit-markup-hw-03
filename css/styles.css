@@ -277,10 +277,11 @@ img {
 
 .htr-for {
   margin-bottom: 8px;
+  text-align: left;
 }
 
 .div-for {
-  border-top: none;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
